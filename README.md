@@ -1,3 +1,4 @@
+
 # Rust Practice
 
 Sharpen your Rust skills through hands-on projects in Systems Programming, Artificial Intelligence, and WebAssembly.
@@ -11,6 +12,26 @@ This repository is a curated Rust development lab designed to support continuous
 - WebAssembly (Wasm) – compile-to-web workflows, UI interactivity, and embedded logic
 
 Each folder is scoped to a specific concept or domain to encourage modular exploration.
+
+## Repository Structure
+
+rust_practice/
+├── systems_programming/
+│   ├── memory_management/
+│   ├── concurrency/
+│   └── file_io/
+├── ai_projects/
+│   ├── rust_ml_basics/
+│   ├── llama_cpp_integration/
+│   └── model_serving/
+├── webassembly/
+│   ├── wasm_hello_world/
+│   ├── wasm_ui_bindings/
+│   └── wasm_ai_demo/
+├── utilities/
+│   ├── cli_tools/
+│   └── benchmarking/
+└── README.md
 
 ## Getting Started
 
@@ -54,9 +75,20 @@ wasm-pack build --target web
 
 ## Contributing
 
-This repo is a personal learning sandbox.
+This repo is a personal learning sandbox. Contributions are welcome if:
+- They are educational
+- Follow idiomatic Rust style
+- Include concise documentation
+
+Feel free to fork or submit a PR!
 
 ## License
 
 MIT License. See LICENSE file for details.
 
+## Contact
+
+Vincent Moore  
+Founder, Travel Astronomy LLC  
+Email: me@vincentmoore.ai  
+Website: https://vincentmoore.ai
