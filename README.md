@@ -1,94 +1,99 @@
-
 # Rust Practice
 
-Sharpen your Rust skills through hands-on projects in Systems Programming, Artificial Intelligence, and WebAssembly.
+**A personal Rust development lab for exploring Systems Programming, Artificial Intelligence, and WebAssembly.**
 
-## Overview
+This repository is a collection of hands-on projects and code samples built to deepen proficiency with Rust in three major areas:
 
-This repository is a curated Rust development lab designed to support continuous learning and experimentation. It includes standalone modules and projects that explore core and advanced topics in:
+- **Systems Programming** – Concurrency, memory safety, file I/O, OS interaction
+- **Artificial Intelligence (AI)** – Machine learning workflows, numerical computing, and model serving
+- **WebAssembly (Wasm)** – Compiling Rust to the web, UI logic, and performance testing
 
-- Systems Programming – low-level memory management, multithreading, OS interaction
-- Artificial Intelligence (AI) – model serving, numerical computing, and ML integration
-- WebAssembly (Wasm) – compile-to-web workflows, UI interactivity, and embedded logic
-
-Each folder is scoped to a specific concept or domain to encourage modular exploration.
+---
 
 ## Repository Structure
 
+```
 rust_practice/
-├── systems_programming/
-│   ├── memory_management/
-│   ├── concurrency/
-│   └── file_io/
-├── ai_projects/
-│   ├── rust_ml_basics/
-│   ├── llama_cpp_integration/
-│   └── model_serving/
-├── webassembly/
-│   ├── wasm_hello_world/
-│   ├── wasm_ui_bindings/
-│   └── wasm_ai_demo/
-├── utilities/
-│   ├── cli_tools/
-│   └── benchmarking/
+├── systems/           # Low-level and OS-related Rust projects
+├── ai/                # AI, ML, and numerical computing examples
+├── wasm/              # WebAssembly modules and browser-side logic
+├── cli_tools/         # Command-line utilities and tools
+├── benchmarks/        # Micro-benchmarking and performance profiling
 └── README.md
+```
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-- Rust toolchain: https://www.rust-lang.org/tools/install
-- wasm-pack for WebAssembly targets
-- cargo for building and running projects
-- Optional: just, make, or nix for automation and reproducibility
+- [Rust Toolchain](https://www.rust-lang.org/tools/install)
+- `wasm-pack` (for WebAssembly)
+- Optionally: `cargo-edit`, `cargo-watch`, `just`, or `nix`
 
-### Clone the Repo
+### Clone the Repository
 
+```bash
 git clone https://github.com/nomadicvince/rust_practice.git
 cd rust_practice
+```
 
-## Usage
+### Build and Run
 
-Navigate to any directory and build using:
+Navigate into any project folder:
 
-cargo build
+```bash
+cd systems/file_io
 cargo run
+```
 
-To run WebAssembly examples:
+For WebAssembly:
 
+```bash
+cd wasm/wasm_hello_world
 wasm-pack build --target web
+```
 
-## Goals
+---
 
-- Build strong intuition for Rust ownership, lifetimes, and traits
-- Apply Rust to AI workloads including bindings to C/C++ or Python (e.g. using tch-rs or llm-rs)
-- Develop fast, portable Wasm components for web and embedded platforms
-- Establish a personal knowledge base of reusable patterns and performance techniques
+## Project Goals
+
+- Develop real-world expertise in safe and efficient systems code
+- Prototype AI/ML logic with performance-aware Rust code
+- Learn and document Rust-to-Wasm workflows
+- Create a knowledge base of idiomatic, reusable Rust patterns
+
+---
 
 ## Highlights
 
-- Memory-safe system calls and unsafe Rust examples (with documentation)
-- AI microservices in Rust with model loading logic
-- WebAssembly demos using Yew, Leptos, and vanilla JS bindings
-- CLI tool prototypes with clap, anyhow, and log
-- Benchmarks for comparing Rust to C or Python equivalents
+- Systems modules using `std::fs`, `std::thread`, and `unsafe` blocks
+- AI experiments using `ndarray`, `tch-rs`, and integration with `llm` libraries
+- WebAssembly projects using `wasm-bindgen`, `Yew`, and raw JS interop
+- CLI projects built with `clap`, `anyhow`, and `log`
+- Benchmarking tools using `criterion`
+
+---
 
 ## Contributing
 
-This repo is a personal learning sandbox. Contributions are welcome if:
-- They are educational
-- Follow idiomatic Rust style
-- Include concise documentation
+This repo is maintained as a solo learning project, but contributions are welcome if:
 
-Feel free to fork or submit a PR!
+- Code is idiomatic and well-documented
+- It adds clarity, performance, or educational value
+
+---
 
 ## License
 
-MIT License. See LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
+---
 
-Vincent Moore  
+## Author
+
+**Vincent Moore**  
 Founder, Travel Astronomy LLC  
-Email: me@vincentmoore.ai  
-Website: https://vincentmoore.ai
+**Email:** [me@vincentmoore.ai](mailto:me@vincentmoore.ai)  
+**Website:** [vincentmoore.ai](https://vincentmoore.ai)
