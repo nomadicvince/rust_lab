@@ -93,7 +93,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-**Vincent Moore**  
-Founder, Travel Astronomy LLC  
+**Vincent Moore**   
 **Email:** [me@vincentmoore.ai](mailto:me@vincentmoore.ai)  
 **Website:** [vincentmoore.ai](https://vincentmoore.ai)
