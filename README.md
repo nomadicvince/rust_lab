@@ -12,26 +12,6 @@ This repository is a curated Rust development lab designed to support continuous
 
 Each folder is scoped to a specific concept or domain to encourage modular exploration.
 
-## Repository Structure
-
-rust_practice/
-├── systems_programming/
-│   ├── memory_management/
-│   ├── concurrency/
-│   └── file_io/
-├── ai_projects/
-│   ├── rust_ml_basics/
-│   ├── llama_cpp_integration/
-│   └── model_serving/
-├── webassembly/
-│   ├── wasm_hello_world/
-│   ├── wasm_ui_bindings/
-│   └── wasm_ai_demo/
-├── utilities/
-│   ├── cli_tools/
-│   └── benchmarking/
-└── README.md
-
 ## Getting Started
 
 ### Prerequisites
