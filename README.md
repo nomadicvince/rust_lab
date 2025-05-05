@@ -1,4 +1,4 @@
-# Rust Practice
+# Rust Lab
 
 **A personal Rust development lab for exploring Systems Programming, Artificial Intelligence, and WebAssembly.**
 
