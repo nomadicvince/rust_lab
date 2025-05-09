@@ -17,7 +17,7 @@ This repository is my learning journey with Rust, focusing on several key areas 
 
 ### Prerequisites
 
-- [Rust Toolchain](https://www.rust-lang.org/tools/install) (1.77 or newer recommended)
+- [Rust Toolchain](https://www.rust-lang.org/tools/install) (1.80 or newer recommended)
 - [`wasm-pack`](https://rustwasm.github.io/wasm-pack/installer/) for WebAssembly projects
 - Development utilities (optional but recommended):
   - [`cargo-edit`](https://github.com/killercup/cargo-edit) - Dependency management
