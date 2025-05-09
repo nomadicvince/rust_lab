@@ -10,20 +10,6 @@ This repository is a collection of hands-on projects and code samples built to d
 
 ---
 
-## Repository Structure
-
-```
-rust_practice/
-├── systems/           # Low-level and OS-related Rust projects
-├── ai/                # AI, ML, and numerical computing examples
-├── wasm/              # WebAssembly modules and browser-side logic
-├── cli_tools/         # Command-line utilities and tools
-├── benchmarks/        # Micro-benchmarking and performance profiling
-└── README.md
-```
-
----
-
 ## Getting Started
 
 ### Prerequisites
